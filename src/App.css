@@ -1,0 +1,59 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 5px;
+}
+
+.menu a {
+  padding: 10px 20px;
+  background: #d5d5d5;
+  text-decoration: none;
+  color: navy;
+}
+
+.menu a:hover {
+  background: #b5b5b5;
+}
+
+.menu a.active {
+  background: dodgerblue;
+  color: white;
+}
+
+
+.user-status {
+  padding: 10px 20px;
+  border: 5px solid dodgerblue;
+}
+
+
+
+.main {
+  margin: 2em 0;
+  padding: 1em;
+  border: 5px solid silver;
+}
+
+
+.form-field {
+  display: flex;
+  align-items: baseline;
+  max-width: 350px;
+}
+
+.form-field label {
+  flex: 0 1 30%;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form-field input {
+  flex: 0 1 70%;
+  padding: 5px;
+}
+
